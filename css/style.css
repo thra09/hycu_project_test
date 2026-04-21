@@ -1,0 +1,287 @@
+
+body{
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 350;
+}
+
+
+/* 메인 */
+header{
+    height:849px;
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.header-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.header-inner h1 {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-family: 'Chiron Sung HK', serif;
+}
+
+.sub {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Chiron Sung HK', serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.author-name {
+    position: absolute;
+    top: 24.3%;
+    left: 50%;
+    font-size: 19px;
+    transform: translateX(-50%);
+    font-family: 'Chiron Sung HK', serif;
+}
+
+
+.mark{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Nanum Myeongjo';
+    font-size : 47px;
+    opacity: 50%;
+}
+
+.quote {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    font-family: 'AppleSDGothicNeoUL';
+    font-size: 12px;
+    transform: translateX(-50%);
+    line-height: 1.5;
+}
+
+.main-book-img {
+    position: absolute;
+    bottom: 67px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 415px;
+}
+
+.myname{
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    font-size: 12px;
+    opacity: 40%;
+    transform: translateX(-50%);
+    line-height: 1.6;
+}
+
+
+
+/* 작가 소개*/
+.intro-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.image-box {
+    flex: 1;
+}
+
+.image-box img {
+    width: 100%;            
+    height: auto;
+    display: block;
+    border: 3px solid #dedede;
+}
+
+.text-box {
+    margin-top: 40px;
+    flex: 1.2;              
+    text-align: left;
+}
+
+.eng-name {
+    color:#7d90ab;
+}
+
+.text-box h2 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.text-box h2 span{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #1e1e1e;
+}
+
+.text-box hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 20px;
+}
+
+.description {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #333;
+    font-family: 'AppleSDGothicNeoUL';
+}
+
+.text-box .btn {
+    display: inline-block;
+    border: 1px solid #3b4859;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #3b4859;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 27px;
+}
+
+.text-box .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* 목차 스토리 */
+.content-section {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url("../img/bg2.jpg");
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    color: white;
+}
+
+.inner-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.table-contents h3 {
+    margin-bottom: 25px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.table-contents ol, .table-contents .extra-info {
+    padding: 0;
+    margin: 0;
+}
+
+.table-contents li {
+    font-size: 14px;
+    line-height: 2.1;
+    font-family: 'Chiron Sung HK', serif;
+}
+
+.table-contents ol {
+    margin-bottom: 13px;
+}
+
+.extra-info {
+    margin-top: 40px;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.book-img img {
+    width: 300px;
+    height: auto;
+}
+
+.divider {
+    margin: 35px 0 11px 0;
+    font-size: 24px;
+    opacity: 0.7;
+    font-weight: 100;
+}
+
+
+/* Footer element */
+.bottom-content {
+    max-width: 850px;
+}
+
+.summary {
+    font-size: 13px;
+    font-family: 'Chiron Sung HK', serif;
+    line-height: 2;
+    margin-bottom: 50px;
+    word-break: keep-all;
+}
+
+.store-btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.store-btn:hover {
+    color: #fff;
+    background: #35455b;
+}
+
